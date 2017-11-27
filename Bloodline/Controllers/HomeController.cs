@@ -15,14 +15,14 @@ namespace Bloodline.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Here I`ll say a couple of word about the project.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Сontact page.";
 
             return View();
         }
